@@ -17,3 +17,17 @@ Each item is either:
 
 taken (1) 
 not taken (0) 
+Simple Explanation of How the Algorithm Works.
+
+Imagine it is filling a table:
+
+Rows = items
+Columns = capacity
+
+At each cell:
+ You decide:
+
+Take the item
+Leave the item
+
+Select the better alternative (max value) then.
