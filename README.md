@@ -1,9 +1,8 @@
 EB3/67259/23 
 JOSHUA DAVID 
+
 Understanding Problems (0/1 Knapsack)
-
 You are given:
-
 n items
 Each item has:
 weight w[i]
@@ -11,27 +10,20 @@ value v[i]
 A knapsack with capacity W
 
  Objective: maximize overall value, but not over capacity.
-
  Constraint:
 Each item is either:
-
 taken (1) 
 not taken (0) 
 Simple Explanation of How the Algorithm Works.
-
 Imagine it is filling a table:
-
 Rows = items
 Columns = capacity
-
 At each cell:
  You decide:
-
 Take the item
 Leave the item
 
 Select the better alternative (max value) then.
-
 Metrics Collected
 From program:
 
@@ -43,19 +35,13 @@ Time Complexity
 Best Case:
 O(nW)
 
-(No shortcut, table has to be filled in)
-
 Average Case:
 O(nW)
 Worst Case:
 O(nW)
 
- Always same, DP occupies complete table.
-
  Space Complexity
 O(nW)
-
-Because of DP table
 
  Running with Altered sizes of inputs.
 n	W	Operations
@@ -69,7 +55,6 @@ n	W	Operations
 1.78M	large	 impractical
 
  Important:
-
 Knapsack is not linear.
 Not capacity-dependent, but capacity-dependent.
  Discussion of Results
@@ -79,7 +64,6 @@ capacity is large
 many items
 
  For very large inputs - need:
-
 Greedy (approximation)
 Branch & Bound
  Key Takeaways
